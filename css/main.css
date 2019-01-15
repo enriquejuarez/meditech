@@ -217,18 +217,19 @@ ul li, ol li {
 }
 
 .btn-common {
-  background-color: #E91E63;
+  background-color: rgb(149, 24, 28);
   position: relative;
   z-index: 1;
 }
 
 .btn-common:hover {
   color: #fff;
-  background: #F50057;
+  background-color: rgb(149, 24, 28);
   box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out;
+  opacity: 1;
 }
 
 .btn-border {
@@ -632,7 +633,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-nav li.active a.nav-link {
-  color: #E91E63 !important;
+  color: rgb(148, 25, 28) !important;
 }
 
 .indigo {
@@ -685,13 +686,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-expand-lg .navbar-nav li a:hover,
 .navbar-expand-lg .navbar-nav li .active > a,
 .navbar-expand-lg .navbar-nav li a:focus {
-  color: #E91E63;
+  color: rgb(148, 25, 28);
   outline: none;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:focus,
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: #E91E63 !important;
+  color: rgb(148, 25, 28) !important;
 }
 
 .navbar {
@@ -699,7 +700,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .navbar li.active a.nav-link {
-  color: #E91E63 !important;
+  color: rgb(148, 25, 28) !important;
 }
 
 .dropdown-toggle::after {
@@ -916,19 +917,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .counter-section {
-  background: #E91E63;
+  background: rgb(149, 24, 28);
   overflow: hidden;
   position: relative;
-  /*
-    &:before{
-    	content: '';
-    	position: absolute;
-    	top: 0;
-    	bottom: 0;
-    	width: 100%;
-    	height: 100%;
-    	background: rgba(0, 0, 0, 0.5);
-    } */
 }
 
 .counter-section .counter {
@@ -1283,7 +1274,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #gallery .gallery-box:hover .overlay-box {
-  background: rgba(233, 30, 99, 0.7);
+  background: rgba(191, 51, 62, 0.8);
   transform: scale(1, 1);
   transition: all 500ms ease;
 }
@@ -2227,6 +2218,21 @@ a.back-to-top:hover, a.back-to-top:focus {
     color: black;
     font-size: 20px;
 }
-.lni-heart-pulse{
-    font-size: 50px;
+.fa-hand-point-right{
+    color: rgb(145, 25, 28);
+    padding-right: 15px;
+}
+.icon-android, .icon-ios{
+    color: white !important;
+    width: 170px;
+    height: 170px;
+    border: none;
+}
+.icon-android{
+    border-radius: 50%;
+    background-color: rgb(104, 159, 56);
+}
+.icon-ios{
+    border-radius: 50%;
+    background-color: black;
 }
